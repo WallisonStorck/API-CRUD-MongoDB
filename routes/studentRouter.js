@@ -44,6 +44,7 @@ app.patch("/student/:id", async (req, res) => {
   }
 });
 
+// DELETE
 app.delete("/student/:id", async (req, res) => {
   try {
     const id = req.params.id;
